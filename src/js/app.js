@@ -7,4 +7,11 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+
+  let image = document.querySelector('.image')
+
+
+  image.addEventListener('click', function(){
+    image.classList.add('active')
+  })
 });
